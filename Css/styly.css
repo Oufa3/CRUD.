@@ -1,0 +1,67 @@
+body {
+    background: rgb(247, 236, 222);
+    font-family: "PT Sans Caption", sans-serif;
+}
+.main-h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+}
+.main-h1::before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    z-index: -1;
+    /* left: 0; */
+    bottom: 10px;
+    background-color: #fec260;
+}
+
+hr{
+    border:  dotted 1px;
+
+}
+.book-mark{
+    border: dotted 2px ;
+    border-left: 0;
+    border-right: 0;
+}
+.book-mark h2 {
+    font-family: "Righteous", sans-serif;
+    /* font-family: "Righteous", cursive; */
+    font-size: 25px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.input-shadow{
+    box-shadow:none;
+}
+.btn:hover {
+    color: #fff;
+    background-color: #bb4120;
+    border-color: #a03315;
+}
+.submit{
+    color: #fff;
+    background-color: #d1512d;
+}
+.box{
+    background-color: #0007;
+}
+.circles span:nth-child(1) {
+    background-color: #f15f5d;
+}
+.circles span:nth-child(2) {
+    background-color: #febe2e;
+}
+.circles span:nth-child(3) {
+    background-color: #4db748;
+}
+.circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
